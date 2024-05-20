@@ -13,8 +13,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} `}>
         <header className="w-full flex justify-center items-center h-24">
-          <Link className="font-semibold text-xl" href="/">
-            Home page
+          <Link
+            className="font-semibold text-xl bg-indigo-900 text-white rounded-lg p-4"
+            href="/"
+          >
+            Home Page
           </Link>
         </header>
         <div className="h-screen p-16">{children}</div>
