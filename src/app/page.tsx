@@ -7,7 +7,7 @@ export default function Home() {
         href="tiptap"
         className="py-4 px-8 rounded-lg bg-indigo-100 drop-shadow-md text-3xl"
       >
-        TipTap
+        Tiptap
       </Link>
       <Link
         href="tiny"

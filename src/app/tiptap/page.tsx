@@ -1,7 +1,12 @@
+import TiptapEditor from "@/components/Tiptap";
 import React from "react";
 
-const TipTap = () => {
-  return <div>TipTap</div>;
+const Tiptap = () => {
+  return (
+    <div>
+      <TiptapEditor />
+    </div>
+  );
 };
 
-export default TipTap;
+export default Tiptap;
