@@ -18,3 +18,28 @@
 button {
   margin-right: 5px;
 }
+
+.editor-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.editor-toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.editor-toolbar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.editor-toolbar button.is-active {
+  color: #007bff;
+}
+
